@@ -7,6 +7,7 @@ Heat map shows the relation between features and its magnitude using the column 
 
 ### Data Analysis
 No doubt, delinquency depends upon the various factor, some of these factors are discussed below.
-Open the [https://nbviewer.jupyter.org/github/yesdeepakmittal/delinquencymodel/blob/main/DelinquencyModel.ipynb](#notebook) or visit [https://yesdeepakmittal.github.io/delinquencymodel/](# webpage)
+Open the <a href="https://nbviewer.jupyter.org/github/yesdeepakmittal/delinquencymodel/blob/main/DelinquencyModel.ipynb">notebook</a> or visit <a href="https://yesdeepakmittal.github.io/delinquencymodel/">webpage</a>
 
-
+### Machine Models Score
+<img src="images/models.PNG" alt="Models">
