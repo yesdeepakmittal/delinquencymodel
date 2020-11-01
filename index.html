@@ -10,7 +10,7 @@
         background-color: white;
         border: 5px outset navy;
         text-align: center;
-        margin:25px auto;
+        margin:0 auto;
 /*         font-weight: bold; */
 /*         font-style: italic; */
 /*         font-family: Calibri; */
@@ -48,10 +48,88 @@
      <div class="owndiv">
        <h2>Data Analysis</h2>
        <p>No doubt, delinquency depends upon the various factor, some of these factors are discussed below.</p>
-       <img src="images/heatmap.PNG" alt="Heat Map">
-       <h4 align="left">Daily amount spent</h4>
+       <p><br>
+         
+       <h4>1. Daily amount spent</h4>
        <img src="images/daily_decr30.PNG" alt="Daily amount spent">
+       <p>It is less risky to loan someone whose 30-day average of daily amount spent from main account is greater than 40000.</p>
+       <p><br>
+         
+       <h4>2. Main account balance(30 days)</h4>
+       <img src="images/rental30.PNG" alt="Main account balance(30 days)">
+       <p>It is less risky to loan someone whose average main account balance over last 30 days is greater than 50000.</p>
+       <p><br>
+         
+       <h4>3. Count main account recharge(30 days)</h4>
+       <img src="images/cnt_ma_rech30.PNG" alt="Count main account recharge(30 days)">
+       <p>It is less risky to loan someone who got recharged main account for more than 25 times in the last 30 days.</p>
+       <p><br>
+         
+       <h4>4. Sum main account recharge(30 days)</h4>
+       <img src="images/sumamnt_ma_rech30.PNG" alt="Sum main account recharge(30 days)">
+       <p>It is less risky to loan someone whose total amount of recharge in the main account over last 30 days is greater than 60000.</p>
+       <p><br>
+         
+       <h4>5. Count main account recharge(90 days)</h4>
+       <img src="images/cnt_ma_rech90.PNG" alt="Count main account recharge(90 days)">
+       <p> It is less risky to loan someone whose main account got recharged for more than 50 times in the last 90 days.</p>
+       <p><br>
+         
+       <h4>6. Sum main account recharge(90 days)</h4>
+       <img src="images/sumamnt_ma_rech90.PNG" alt="Sum main account recharge(90 days)">
+       <p>It is less risky to loan someone whose total amount of recharge in the main account over last 90 days is greater than 100000.</p>
+       <p><br>
+         
+       <h4>7. Count loans(30 days)</h4>
+       <img src="images/cnt_loans30.PNG" alt="Count loans(30 days)">
+       <p> It is less risky to loan someone who had taken loan for more than 20 times in the last 30 days.</p>
+       <p><br>
+         
+       <h4>8. Total amount(30 days)</h4>
+       <img src="images/amnt_loans30.PNG" alt="Total amount(30 days)f">
+       <p>It is less risky to loan someone whose total amount of loan in the last 30 days is greater than 100.</p>
+       <p><br>
+         
      </div>
+     <p><br>
+     
+     <div class="owndiv">
+       <h2>Machine Learning Modeling</h2>
+       <h4>1. ExtraTreesClassifier</h4>
+       <img src="images/etf_dist.PNG" alt="ExtraTreesClassifier Distribution">
+       <img src="images/etf_fi.png" alt="ExtraTreesClassifier Features importance">
+       <p><br>
+         
+       <h4>2. RandomForestClassifier</h4>
+       <img src="images/rtc_dist.PNG" alt="RandomForestClassifier Distribution">
+       <img src="images/rtc_fi.png" alt="RandomForestClassifier Features importance">
+       <p><br>
+       
+       <h4>3. GradientBoostingClassifier</h4>
+       <img src="images/gbc_dist.PNG" alt="GradientBoostingClassifier Distribution">
+       <img src="images/gbc_fi.png" alt="GradientBoostingClassifier Features importance">
+       <p><br>
+       
+       <h4>4. LogisticsRegression</h4>
+       <img src="images/lr_dist.PNG" alt="LogisticsRegression Distribution">
+       <p><br>
+         
+       <h4>5. DecisionTreeClassifier</h4>
+       <img src="images/dtc_dist.PNG" alt="DecisionTreeClassifier Distribution">
+       <img src="images/dtc_fi.png" alt="DecisionTreeClassifier Features importance">
+       <p><br>
+         
+       <h4>6. SupportVectorClassifier</h4>
+       <img src="images/svc_dist.PNG" alt="SupportVectorClassifier Distribution">
+       <p><br>
+         
+       <h4>7. KNeighborsClassifier</h4>
+       <img src="images/knn_dist.PNG" alt="KNeighborsClassifier Distribution">
+       <p><br><br>
+       <h3>Model scores</h3>
+       <img src="images/models.PNG" alt="Models">
+       <p><br>
+      </div>
      <p><br>
       
     <p><br>
